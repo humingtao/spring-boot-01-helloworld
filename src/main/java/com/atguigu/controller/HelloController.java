@@ -10,6 +10,7 @@ public class HelloController {
     @ResponseBody
     @RequestMapping("/hello")
     public String hello() {
+        //打印出该语句
         return "Hello World";
     }
 }
